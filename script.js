@@ -334,12 +334,13 @@ function setupKeyControls() {
 
 
 function getRandomImageName() {
-  const total = 32; // just change this number when you add more images
-  const randomIndex = Math.floor(Math.random() * total) + 1;
-  const selectedImage = `./images/${randomIndex}.png`;
+  const min = 241;
+  const max = 450;
+  const randomIndex = Math.floor(Math.random() * (max - min + 1)) + min;
+  const selectedImage = `./images/${randomIndex}.jpg`;
 
   const studentImage = document.querySelector('.studentimage');
-  studentImage.innerHTML = selectedImage.split('/').pop();
+  studentImage.innerHTML = `${randomIndex}.jpg`;
 
   studentImage.classList.remove('bg-animate');
   void studentImage.offsetWidth;
@@ -347,7 +348,6 @@ function getRandomImageName() {
 
   return selectedImage;
 }
-
 
 // function getRandomImageName() {
 //   var imageList = [

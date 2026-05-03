@@ -20,12 +20,6 @@ body, html {
 
 
 
-
-
-
-
-
-
 #logo_container {
     font-size: 20px;
     font-family: Arial, sans-serif;
@@ -56,17 +50,6 @@ body, html {
     padding: 2px 5px;
     display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -109,8 +92,6 @@ right: 20px;
     z-index: 200;
     text-align: center;
 }
-
-
 
 
 
@@ -163,8 +144,6 @@ right: 20px;
   align-items: center;
   mix-blend-mode: exclusion; /* Alternative to exclusion, more contrast */
 }
-
-
 
 
 
