@@ -32,7 +32,7 @@ function setupKeyControls() {
   function setupAutoDisplacement() {
     // Random interval between 5 seconds and 1 minute (5000ms - 60000ms)
     function getRandomInterval() {
-      return Math.floor(Math.random() * (60000 - 5000 + 1)) + 5000;
+      return Math.floor(Math.random() * (3000 - 500 + 1)) + 5000;
     }
     
     function changeDisplacement() {
