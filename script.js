@@ -6,14 +6,14 @@ function runSketch() {
 	var renderer, renderTarget1, renderTarget2, sceneShader, sceneScreen, camera, clock, uniforms, materialScreen, imgTexture;
 
 // Create Stats.js instance
-	var stats = new Stats();
-	stats.showPanel(0); // 0: fps, 1: ms, 2: mb, 3+: custom
-	document.body.appendChild(stats.dom);
+	//var stats = new Stats();
+	//stats.showPanel(0); // 0: fps, 1: ms, 2: mb, 3+: custom
+	//document.body.appendChild(stats.dom);
 	
 	// Position the stats panel in the top-left corner
-	stats.dom.style.position = 'absolute';
-	stats.dom.style.left = '0px';
-	stats.dom.style.top = '0px';
+	//stats.dom.style.position = 'absolute';
+	//stats.dom.style.left = '0px';
+	//stats.dom.style.top = '0px';
 
 
 
@@ -566,13 +566,13 @@ function animate() {
 		requestAnimationFrame(animate);
 		
 		// Begin monitoring this frame
-		stats.begin();
+		//stats.begin();
 		
 		// Render scene
 		render();
 		
 		// End monitoring
-		stats.end();
+		//stats.end();
 	}	
 
 	/*
